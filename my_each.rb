@@ -3,9 +3,9 @@ def my_each(array)
   while i < array.size
     element = array[i]
     yield(element)
-    puts "#{element}"
     i += 1
   end
+  return array
 end
 
 
